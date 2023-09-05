@@ -38,7 +38,7 @@ namespace ChipSharp
 		public static void Main(string[] args)
 		{
 			var emulator = new Emulator();
-			emulator.LoadProgram(ProgramFromString(testProgram5));
+			emulator.LoadProgram(ProgramFromString(testProgram3));
 
 			Raylib.InitWindow(800, 600, "Hello Raylib!");
 			Raylib.SetTargetFPS(FPS);
